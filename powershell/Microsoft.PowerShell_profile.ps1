@@ -18,3 +18,5 @@ Set-PSReadLineOption @PSReadLineOptions
 Set-PSReadLineKeyHandler -Key Ctrl+y -Function Copy
 Set-PSReadLineKeyHandler -Key Ctrl+p -Function Paste
 Set-PSReadLineKeyHandler -Key Ctrl+c -Function CancelLine
+
+Set-Alias -Name ll -Value dir
